@@ -1,5 +1,5 @@
 package shapes;
 
 public abstract class Shape {
-    public abstract void  printFigureName();
+    public abstract String getFigureName();
 }

@@ -2,7 +2,8 @@ package shapes;
 
 public class FigureNamePrinter {
     public FigureNamePrinter(Shape shape) {
-        shape.printFigureName();
+
+        System.out.println(shape.getFigureName());
     }
 }
 
